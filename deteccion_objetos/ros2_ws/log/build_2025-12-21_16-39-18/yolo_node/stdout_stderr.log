@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/yolo_node/yolo_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/yolo_node/yolo_node.egg-info/dependency_links.txt
+writing entry points to ../../build/yolo_node/yolo_node.egg-info/entry_points.txt
+writing requirements to ../../build/yolo_node/yolo_node.egg-info/requires.txt
+writing top-level names to ../../build/yolo_node/yolo_node.egg-info/top_level.txt
+reading manifest file '../../build/yolo_node/yolo_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/yolo_node/yolo_node.egg-info/SOURCES.txt'
+running build
+running build_py
+copying yolo_node/yolo_detect.py -> /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/yolo_node/build/lib/yolo_node
+copying yolo_node/yolo_detect_OK_2.py -> /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/yolo_node/build/lib/yolo_node
+copying yolo_node/yolo_detect_OK_1.py -> /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/yolo_node/build/lib/yolo_node
+running install
+running install_lib
+copying /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/yolo_node/build/lib/yolo_node/yolo_detect.py -> /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/yolo_node/lib/python3.12/site-packages/yolo_node
+copying /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/yolo_node/build/lib/yolo_node/yolo_detect_OK_2.py -> /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/yolo_node/lib/python3.12/site-packages/yolo_node
+copying /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/yolo_node/build/lib/yolo_node/yolo_detect_OK_1.py -> /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/yolo_node/lib/python3.12/site-packages/yolo_node
+byte-compiling /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/yolo_node/lib/python3.12/site-packages/yolo_node/yolo_detect.py to yolo_detect.cpython-312.pyc
+byte-compiling /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/yolo_node/lib/python3.12/site-packages/yolo_node/yolo_detect_OK_2.py to yolo_detect_OK_2.cpython-312.pyc
+byte-compiling /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/yolo_node/lib/python3.12/site-packages/yolo_node/yolo_detect_OK_1.py to yolo_detect_OK_1.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/yolo_node/lib/python3.12/site-packages/yolo_node-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/yolo_node/yolo_node.egg-info to /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/yolo_node/lib/python3.12/site-packages/yolo_node-0.0.0-py3.12.egg-info
+running install_scripts
+Installing yolo_detect script to /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/yolo_node/lib/yolo_node
+writing list of installed files to '/home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/yolo_node/install.log'

@@ -1,0 +1,19 @@
+[0.762s] Invoking command in '/home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/build --no-deps symlink_data --force
+[1.048s] running develop
+[1.232s] running egg_info
+[1.250s] writing location_pkg.egg-info/PKG-INFO
+[1.250s] writing dependency_links to location_pkg.egg-info/dependency_links.txt
+[1.250s] writing entry points to location_pkg.egg-info/entry_points.txt
+[1.250s] writing requirements to location_pkg.egg-info/requires.txt
+[1.250s] writing top-level names to location_pkg.egg-info/top_level.txt
+[1.286s] reading manifest file 'location_pkg.egg-info/SOURCES.txt'
+[1.286s] writing manifest file 'location_pkg.egg-info/SOURCES.txt'
+[1.307s] running build_ext
+[1.307s] Creating /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/lib/python3.12/site-packages/location-pkg.egg-link (link to .)
+[1.307s] Installing location_node script to /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/lib/location_pkg
+[1.307s] 
+[1.308s] Installed /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg
+[1.308s] running symlink_data
+[1.308s] symbolically linking /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/resource/location_pkg -> /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/share/ament_index/resource_index/packages
+[1.308s] symbolically linking /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/package.xml -> /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/share/location_pkg
+[1.353s] Invoked command in '/home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/build --no-deps symlink_data --force

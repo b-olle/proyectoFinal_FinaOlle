@@ -1,0 +1,28 @@
+---- 22/02 ----
+yolo_detect_node.py: agregamos que cuando gira el robot no manda datos para el objetc location
+Versión que corre el programa siempre.
+
+---- 17/01 ----
+yolo_detect_node_OK_8.py: agregamos que el offset se ajuste por rqt. Con 8 parece funcionar bien
+Versión que corre el programa siempre.
+
+---- 17/01 ----
+yolo_detect_node_OK_7: limpio del 6
+
+---- 12/01 ----
+yolo_detect_node_OK_6: versión muy buena, detecta y mide con lidar. La generé xq me quedó código dando vueltas
+calcula distancia con lidar. Funciona bien. Descarta aquellas mediciones que serían el "fondo".
+Agregado a las 20:00 para que el bounding box siempre esté en lo que mustra /image_out, nada por fuera. También, una capa de precisión para que los datos del lidar no queden viejos.
+
+yolo_detect_node_OK_5: creo que versión limpia de 4.
+
+
+---- 11/01 ----
+yolo_detect_node_OK_4: tiene lo de OK_3. Escribe en terminal el objeto detectado en los últimos 10 resultados no nulos. A su vez, te indica cuando le parece ver algo. Si detecta más de una cosa, en la terminal sólo te indica lo que ve con mayor confianza
+
+---- 11/01 ----
+yolo_detect_node_OK_3: este es copia de OK_1, con mejoras. Sin self.source y conf como argumento. A su vez, filtré clases 
+
+yolo_detect_node_OK_2: inferencia cada 1.15 segundos, manteniendo el BoundingBox anterior.
+
+yolo_detect_node_OK_1: código original más básico, inferencia continua.

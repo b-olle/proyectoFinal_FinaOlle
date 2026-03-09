@@ -1,0 +1,37 @@
+[0.810s] Invoking command in '/home/baltasar/proyecto final/deteccion_objetos/ros2_ws/src/location_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/location_pkg build --build-base /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/build install --record /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/install.log --single-version-externally-managed install_data
+[1.038s] running egg_info
+[1.038s] creating ../../build/location_pkg/location_pkg.egg-info
+[1.055s] writing ../../build/location_pkg/location_pkg.egg-info/PKG-INFO
+[1.056s] writing dependency_links to ../../build/location_pkg/location_pkg.egg-info/dependency_links.txt
+[1.056s] writing entry points to ../../build/location_pkg/location_pkg.egg-info/entry_points.txt
+[1.056s] writing requirements to ../../build/location_pkg/location_pkg.egg-info/requires.txt
+[1.056s] writing top-level names to ../../build/location_pkg/location_pkg.egg-info/top_level.txt
+[1.056s] writing manifest file '../../build/location_pkg/location_pkg.egg-info/SOURCES.txt'
+[1.091s] reading manifest file '../../build/location_pkg/location_pkg.egg-info/SOURCES.txt'
+[1.092s] writing manifest file '../../build/location_pkg/location_pkg.egg-info/SOURCES.txt'
+[1.092s] running build
+[1.092s] running build_py
+[1.092s] creating /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/build
+[1.092s] creating /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/build/lib
+[1.093s] creating /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/build/lib/location_pkg
+[1.093s] copying location_pkg/__init__.py -> /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/build/lib/location_pkg
+[1.093s] copying location_pkg/object_location.py -> /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/build/lib/location_pkg
+[1.093s] running install
+[1.098s] running install_lib
+[1.115s] creating /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/lib/python3.12/site-packages/location_pkg
+[1.115s] copying /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/build/lib/location_pkg/__init__.py -> /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/lib/python3.12/site-packages/location_pkg
+[1.116s] copying /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/build/lib/location_pkg/object_location.py -> /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/lib/python3.12/site-packages/location_pkg
+[1.116s] byte-compiling /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/lib/python3.12/site-packages/location_pkg/__init__.py to __init__.cpython-312.pyc
+[1.116s] byte-compiling /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/lib/python3.12/site-packages/location_pkg/object_location.py to object_location.cpython-312.pyc
+[1.117s] running install_data
+[1.117s] creating /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/share/ament_index
+[1.117s] creating /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/share/ament_index/resource_index
+[1.117s] creating /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/share/ament_index/resource_index/packages
+[1.117s] copying resource/location_pkg -> /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/share/ament_index/resource_index/packages
+[1.117s] copying package.xml -> /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/share/location_pkg
+[1.117s] running install_egg_info
+[1.136s] Copying ../../build/location_pkg/location_pkg.egg-info to /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/lib/python3.12/site-packages/location_pkg-0.0.0-py3.12.egg-info
+[1.137s] running install_scripts
+[1.253s] Installing location_node script to /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/lib/location_pkg
+[1.253s] writing list of installed files to '/home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/install.log'
+[1.291s] Invoked command in '/home/baltasar/proyecto final/deteccion_objetos/ros2_ws/src/location_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baltasar/proyecto final/deteccion_objetos/ros2_ws/install/location_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/location_pkg build --build-base /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/build install --record /home/baltasar/proyecto final/deteccion_objetos/ros2_ws/build/location_pkg/install.log --single-version-externally-managed install_data

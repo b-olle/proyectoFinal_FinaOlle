@@ -1,0 +1,2 @@
+[console_scripts]
+yolo_detect = yolo_node.yolo_detect_wrapper:main

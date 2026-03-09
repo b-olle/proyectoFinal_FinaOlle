@@ -1,0 +1,1 @@
+/home/baltasar/proyecto final/deteccion_objetos/ros2_ws/src/yolo_node/setup.py

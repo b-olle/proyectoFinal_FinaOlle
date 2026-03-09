@@ -1,0 +1,17 @@
+ID | CLASE | X (MAPA) | Y (MAPA)
+----------------------------------------
+1 | una botella | -1.08 | 3.14
+2 | una botella | -1.08 | 3.14
+3 | una botella | -1.111 | 3.347
+4 | una botella | -1.081 | 3.15
+5 | una botella | -1.083 | 3.159
+6 | una botella | -1.081 | 3.15
+7 | una botella | -1.082 | 3.16
+8 | una botella | -1.11 | 3.338
+9 | una botella | -1.11 | 3.338
+10 | una botella | -1.08 | 3.14
+11 | una botella | -1.081 | 3.15
+12 | una botella | -1.1 | 3.278
+13 | una botella | -1.12 | 3.407
+14 | una botella | -1.082 | 3.15
+15 | una botella | -1.11 | 3.338
