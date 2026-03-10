@@ -16,11 +16,12 @@ Este proyecto consiste en el desarrollo de un robot móvil integrado con **ROS 2
 
 ##  Instalación y Uso sobre PC
 
-### Dependencias Previas
+### Dependencias previas
 Para la navegación y planificación, es necesario contar con el paquete `nav2_bringup`. Podés instalarlo mediante `apt` (reemplazá `<distro>` por tu versión de ROS 2, ej. `humble` o `jazzy`):
 ```bash
 sudo apt install ros-<distro>-nav2-bringup
-
+```
+### Código específico 
 Para ejecutar este proyecto en local, cloná el repositorio y compilá el workspace:
 
 ```bash
@@ -41,7 +42,8 @@ ros2 run yolo_node yolo_detect_node
 Para ejecutar el nodo ROS de la cámara, es necesario contar con el paquete `v4l2_camera`. Podés instalarlo mediante `apt` (reemplazá `<distro>` por tu versión de ROS 2, ej. `humble` o `jazzy`):
 ```bash
 sudo apt install ros-<distro>-v4l2-camera
-
+```
+### Código específico 
 Para nodos sensor LiDAR y ejecución de SLAM:
 ```bash
 # Compilar el workspace del Create 3
