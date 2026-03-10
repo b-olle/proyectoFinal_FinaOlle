@@ -29,6 +29,20 @@ source install/setup.bash
 ros2 run yolo_node yolo_detect_node
 
 
+## 💻 Instalación y Uso sobre rpi4
+Para nodos sensor LiDAR y ejecución de SLAM:
+
+# Compilar el workspace del Create 3
+cd proyecto\ final/create3_ws
+colcon build
+source install/setup.bash
+
+# Lanzar drivers de sensores (LIDAR LD19 y cámara)
+ros2 launch create3_lidar_slam sensors_launch.py
+
+# Iniciar SLAM para generación de mapa
+ros2 launch create3_lidar_slam slam_toolbox_launch.py
+
 ---
 
 ##  Integrantes
