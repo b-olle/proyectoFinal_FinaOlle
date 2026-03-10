@@ -4,8 +4,8 @@ import math
 import os
 
 # --- CONFIGURACIÓN ---
-RUTA_YAML = "/home/baltasar/proyecto final/deteccion_objetos/mapa_pintado/mapa depto facu/mi_depto.yaml"
-RUTA_PGM = "/home/baltasar/proyecto final/deteccion_objetos/mapa_pintado/mapa depto facu/mi_depto.pgm"
+RUTA_YAML = "/home/baltasar/proyecto final/deteccion_objetos/mapa_pintado/mapa_entorno_SLAM.yaml"
+RUTA_PGM = "/home/baltasar/proyecto final/deteccion_objetos/mapa_pintado/mapa_entorno_SLAM.pgm"
 RUTA_TXT = "objetos_encontrados.txt"
 OUTPUT_IMG = "mapa_con_objetos.png"
 SCALE_FACTOR = 10 
@@ -93,7 +93,7 @@ def pintar_objetos():
 
     print(f"Se eliminaron {eliminados} objetos después de refiltrar.")
     cv2.imwrite(OUTPUT_IMG, img)
-    print(f"✅ Mapa guardado como: {OUTPUT_IMG}")
+    print(f" Mapa guardado como: {OUTPUT_IMG}")
 
 if __name__ == "__main__":
     pintar_objetos()

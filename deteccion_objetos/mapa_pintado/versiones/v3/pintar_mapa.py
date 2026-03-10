@@ -4,8 +4,8 @@ import math
 import os
 
 # --- CONFIGURACIÓN ---
-RUTA_YAML = "mapa depto facu/mi_depto.yaml"
-RUTA_PGM = "mapa depto facu/mi_depto.pgm"
+RUTA_YAML = "mapa_SLAM/mapa_entorno_SLAM.yaml"
+RUTA_PGM = "mapa_SLAM/mapa_entorno_SLAM.pgm"
 RUTA_TXT = "objetos_encontrados.txt"
 OUTPUT_IMG = "mapa_con_objetos.png"
 SCALE_FACTOR = 10 

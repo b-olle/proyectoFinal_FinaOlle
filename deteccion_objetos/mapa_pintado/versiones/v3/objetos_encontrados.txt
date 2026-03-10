@@ -1,9 +1,11 @@
 ID | CLASE | X | Y
 ----------------------------------------
-0 | una planta | -0.494 | 3.398
-1 | una botella | -1.693 | 3.227
-2 | un florero | -2.234 | 2.526
-3 | una copa | -2.732 | -0.22
-4 | un reloj | -2.709 | -1.735
-5 | una banana | -1.239 | -3.166
-6 | una botella | 0.222 | -3.515
+0 | una planta | -0.394 | 3.363
+1 | una botella | -1.573 | 3.352
+2 | una planta | -0.627 | 2.904
+3 | un florero | -2.237 | 2.499
+4 | una planta | -2.448 | 2.586
+5 | una copa | -2.755 | -0.374
+6 | una banana | -1.289 | -3.181
+7 | una botella | 0.443 | -3.391
+8 | un reloj | -2.613 | -1.904
