@@ -1,0 +1,8 @@
+**/__pycache__/
+*.pyc
+deteccion_objetos/ros2_ws/build/
+deteccion_objetos/ros2_ws/install/
+deteccion_objetos/ros2_ws/log/
+create3_ws/build/
+create3_ws/install/
+create3_ws/log/
