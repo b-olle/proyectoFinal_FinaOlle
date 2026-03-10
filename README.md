@@ -44,18 +44,21 @@ Para ejecutar el nodo ROS de la cámara, es necesario contar con el paquete `v4l
 sudo apt install ros-<distro>-v4l2-camera
 ```
 ### Código específico 
-Para nodos sensor LiDAR y ejecución de SLAM:
+Para nodos sensor LiDAR y cámara, y ejecución de SLAM:
 ```bash
 # Compilar el workspace del Create 3
 cd proyecto\ final/create3_ws
 colcon build
 source install/setup.bash
 
-# Lanzar drivers de sensores (LIDAR LD19 y cámara)
+# Lanzar nodos de sensor LIDAR LD19
 ros2 launch create3_lidar_slam sensors_launch.py
 
 # Iniciar SLAM para generación de mapa
 ros2 launch create3_lidar_slam slam_toolbox_launch.py
+
+# Lanzar nodo de cámara (cuando se desee realizar detección de objetos)
+ros2 run v4l2_camera v4l2_camera_node
 
 ```
 ##  Integrantes
