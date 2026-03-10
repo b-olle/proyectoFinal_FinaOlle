@@ -1,3 +1,16 @@
+# iRobot® Create® 3 LIDAR SLAM (Adaptación Proyecto Final)
+
+Esta es una versión modificada de la demo de SLAM de iRobot. 
+
+### ⚠️ Adaptación de Hardware
+Todo el funcionamiento de este paquete es **análogo al original**, con la excepción de que se utiliza un sensor LIDAR diferente al RPLidar A1M8 estándar. 
+
+* **Nota Técnica:** Debido al cambio de sensor, se deben verificar las transformadas estáticas (`tf`) en `launch/sensors_launch.py` para asegurar que la posición del láser respecto al centro del robot sea la correcta para el respectivo montaje.
+
+En nuestro caso también utilizamos una Raspberry Pi® 4.
+
+#########################
+
 # iRobot® Create® 3 LIDAR SLAM demo
 
 This example sets up LIDAR SLAM with a Create® 3 robot and Slamtec RPLIDAR spinning laser rangefinder.

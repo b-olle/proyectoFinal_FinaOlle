@@ -1,3 +1,16 @@
+# create3_examples (Versión Modificada)
+
+Este repositorio es una adaptación del repo original [iRobotEducation/create3_examples](https://github.com/iRobotEducation/create3_examples). 
+
+**Nota:** Para este proyecto final, se ha limpiado el repositorio original y solo se ha conservado el paquete `create3_lidar_slam` para la implementación del mapeo.
+
+### Construcción y Uso
+Este paquete debe ser compilado dentro de un workspace de ROS 2 (como `create3_ws`).
+1. `cd create3_ws`
+2. `colcon build`
+3. `source install/setup.bash`
+
+#######################
 # create3_examples
 
 Example nodes to drive the iRobot® Create® 3 Educational Robot.
